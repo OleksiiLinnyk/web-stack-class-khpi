@@ -1,0 +1,4 @@
+#TASK 3 common notification setting for all users and admin
+notification-type:
+  user: MESSENGER
+  admin: EMAIL
