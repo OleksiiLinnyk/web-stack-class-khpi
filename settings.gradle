@@ -1,3 +1,4 @@
 rootProject.name = 'web-stack'
 include 'lab1'
+include 'lab2'
 
