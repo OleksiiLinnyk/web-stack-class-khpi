@@ -3,7 +3,7 @@ package ua.edu.khpi;
 public class Main {
 
     public static void main(String[] args) {
-        SimpleDownloader simpleDownloadFile = new SimpleDownloader();
+        Downloader simpleDownloadFile = new SimpleDownloader();
         System.out.println("SIMPLE DOWNLOADER >>>>>>>>>>>>>>>>>>>>>>>");
         simpleDownloadFile.download("test.txt");
         Downloader downloadWithCache = new SimpleDownloaderCache(simpleDownloadFile);

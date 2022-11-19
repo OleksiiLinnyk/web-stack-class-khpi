@@ -8,12 +8,12 @@ import java.util.Map;
 
 public class SimpleDownloaderCache implements Downloader {
 
-    private final SimpleDownloader simpleDownloader;
+    private final Downloader simpleDownloader;
     private static final Long cacheExpirationInMs = 1300L;
     private final Map<String, CacheableFile> fileCache;
 
 
-    public SimpleDownloaderCache(SimpleDownloader simpleDownloader) {
+    public SimpleDownloaderCache(Downloader simpleDownloader) {
         this.simpleDownloader = simpleDownloader;
         fileCache = new HashMap<>();
     }
