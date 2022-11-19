@@ -20,4 +20,21 @@ public class Main {
             System.out.println(e.getMessage());
         }
     }
+
+    /**
+     *
+     * LOGS
+     *
+     * SIMPLE DOWNLOADER >>>>>>>>>>>>>>>>>>>>>>>
+     * Download file with file name - test.txt
+     * CACHE DOWNLOADER FIRST TIME >>>>>>>>>>>>>>>>>>>>>>>
+     * Download file with file name - test.txt
+     * File is not cached yet or cached is expired. Cached it and return
+     * CACHE DOWNLOADER SECOND TIME >>>>>>>>>>>>>>>>>>>>>>>
+     * File is present in cache. Getting file from cache
+     * CACHE DOWNLOADER THIRD TIME >>>>>>>>>>>>>>>>>>>>>>>
+     * AFTER EXPIRATION TIME >>>>>>>>>>>>>>>>>>>>>>>
+     * Download file with file name - test.txt
+     * File is not cached yet or cached is expired. Cached it and return
+     */
 }
