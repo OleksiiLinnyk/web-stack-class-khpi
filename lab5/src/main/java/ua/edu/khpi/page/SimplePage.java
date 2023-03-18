@@ -2,7 +2,6 @@ package ua.edu.khpi.page;
 
 import ua.edu.khpi.render.Render;
 
-
 public class SimplePage extends Page {
 
     private String title;
