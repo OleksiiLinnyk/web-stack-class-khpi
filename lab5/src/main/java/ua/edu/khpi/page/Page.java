@@ -1,5 +1,8 @@
 package ua.edu.khpi.page;
 
+import ua.edu.khpi.render.Render;
+
+
 public class Page {
 
     private String header;

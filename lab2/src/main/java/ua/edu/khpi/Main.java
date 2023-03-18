@@ -19,8 +19,8 @@ public class Main {
          * OUTPUT
          * As you can see for user 2 and user 3 we have the same object returned of AmazonStorage
          */
-//        User{userStorage=khpi.storage.LocalFileStorage@73d16e93}
-//        User{userStorage=khpi.storage.AmazonStorage@659e0bfd}
-//        User{userStorage=khpi.storage.AmazonStorage@659e0bfd}
+//        User{userStorage=ua.edu.khpi.storage.LocalFileStorage@73d16e93}
+//        User{userStorage=ua.edu.khpi.storage.AmazonStorage@659e0bfd}
+//        User{userStorage=ua.edu.khpi.storage.AmazonStorage@659e0bfd}
     }
 }
