@@ -7,4 +7,5 @@ include 'lab5'
 include 'lab6'
 include 'lab-1-iterator'
 include 'lab-2-mediator'
+include 'lab-4-strategy'
 
