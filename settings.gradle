@@ -11,4 +11,5 @@ include 'lab-4-strategy'
 include 'lab-3-snapshot'
 include 'lab-5-template-method'
 include 'lab-6-visitor'
+include 'lab-7singleton'
 
