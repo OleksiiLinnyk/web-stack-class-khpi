@@ -15,4 +15,5 @@ include 'lab-7singleton'
 include 'lab-8-builder'
 include 'lab9'
 include 'lab-9-facade'
+include 'lab10-composite'
 
